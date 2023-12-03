@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>20231108_agatsuma_htmlt</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>株式会社TECH</h1>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">企業情報</a></li>
+                <li><a href="#">製品情報</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="img/mv.png" alt="mv" width="240" height="80">
+        <p>最新のテクノロジーで社会課題を解決</p>
+        <h2>会社概要</h2>
+        <table>
+            <tr>
+                <th>会社名</th>
+                <th>代表者</th>
+                <th>所在地</th>
+                <th>設立</th>
+                <th>従業員数</th>
+                <th>資本金</th>
+            </tr>
+            <tr>
+                <td>株式会社TECH</td>
+                <td>山田 太郎</td>
+                <td>東京都渋谷区神宮前</td>
+                <td>2019/07/17</td>
+                <td>100人</td>
+                <td>1000万円</td>
+            </tr>
+        </table>
+        <h2>お問い合わせ</h2>
+        <for action="detail.html" method="get">
+            <label> 会社名 <input type="text" name="name" /> </label></br>
+            <label> お名前 <input type="text" name="name" /> </label></br>
+            <label> メールアドレス <input type="email" name="name" /> </label></br>
+            <label> お問い合わせ内容 <textarea name="textarea" cols="30" rows="3"></textarea> </label></br>
+            <button type="submit" name="button-submit">お申し込み</button>
+        </form>
+    </main>
+    <small>&copy; 2020 TECH inc.</small>
+</body>
+
+</html>
